@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--------------------- -font awesome---------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------google font---------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!------------------------- icon--------------------- -->
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <header class="header">
+            <img src="img/logo.png" alt="" class="logo">
+            <nav class="navigation">
+                <ul class="nav__ul">
+                    <li class="nav__list"><a href="" class="nav__link">Home</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Explore</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="add-to-cart">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                <button class="btn">Login </button>
+                <div class="mobile__nav-box">
+                    <i class="fa-regular fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <!-- <input type="text" class="input " placeholder="Search..."> -->
+        </header>
+        <div class="text__container">
+            <div>
+                <h3 class="heading">Let's Dive In</h3>
+                <h3 class="heading"> <span>Music</span> World</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi esse, eum
+                    necessitatibus
+                    earum repellendus doloremque autem laborum illo est ratione neque ipsam nemo unde a hic
+                    exercitationem
+                    cumque molestiae quae.</p>
+                <div class="btn-box">
+                    <button class="btn-1">Shop Now</button>
+                    <button class="btn-1 btn-bg margin-left"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Add To
+                        Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="headphone__container">
+            <div class="headphone-box">
+                <img src="img/headphone img.png" alt="" class="headphone-img">
+                <p class="headphone__heading">Wireless Headphones</p>
+                <p class="headphone__price"><span>$120</span> <del>$185</del></p>
+            </div>
+            <div class="headphone-box">
+                <img src="img/icon.png" alt="" class="headphone-img">
+                <p class="headphone__heading">Wireless Headphones</p>
+                <p class="headphone__price"><span>$150</span> <del>$200</del></p>
+            </div>
+            <div class="headphone-box">
+                <img src="img/headphone img.png" alt="" class="headphone-img">
+                <p class="headphone__heading">Wireless Headphones</p>
+                <p class="headphone__price"><span>$120</span> <del>$185</del></p>
+            </div>
+        </div>
+        <div class="popup hide">
+            <img src="img/icon.png" alt="" class="headphone-img">
+
+            <div class="login__popup">
+                <label for="">Email</label>
+                <input type="text" class="popup-input" placeholder="Enter Email">
+            </div>
+            <div class="login__popup">
+                <label for="">Password</label>
+                <input type="password" class="popup-input" placeholder="Enter Password">
+            </div>
+            <button class="btn-1 btn-bg  ">Login</button>
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
