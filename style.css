@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
 }
 main {
-  padding: 0 2rem;
+  padding: 0 8rem;
 }
 .logo {
   width: 10rem;
@@ -262,6 +262,9 @@ main {
 @media (max-width: 48em) {
   .navigation {
     display: none;
+  }
+  main {
+    padding: 0 4rem;
   }
   /* .headphone-box {
     margin-top: 7rem;
