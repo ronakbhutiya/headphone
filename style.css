@@ -269,9 +269,6 @@ main {
   .add-to-cart {
     gap: 1.5rem;
   }
-  .headphone__container {
-    gap: 5rem;
-  }
 }
 @media (max-width: 29.69em) {
   .heading {
